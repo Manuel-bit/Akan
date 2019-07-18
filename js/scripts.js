@@ -1,4 +1,4 @@
-var= century, year, month, day, gender;
+var century, year, month, day, gender;
 var week = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'saturday'];
 var maleName = ['Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame'];
 var femaleName = ['Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama'];
@@ -20,7 +20,7 @@ function checkData(){
     alert("invalid month");
     return;
   }
-  if(date[3]<= o && date[3]> 31){
+  if(date[3]<= 0 && date[3]> 31){
     alert("invalid day");
     return;
   }
@@ -31,5 +31,10 @@ function calculateName(){
 }
 function final(){
   var result= parseInt(calculateName());
-  if
+  if(gender==0){
+    alert("your Akan name is " + maleName[result]+ ", and you were born in " + week[result]);
+  }
+  else{
+    alert("your akan name is " + femaleName[result] + ", and you were born in " + week[result]);
+  }
 }

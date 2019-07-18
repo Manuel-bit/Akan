@@ -12,3 +12,16 @@
 .histry{
   text-align: center;
 }
+.centered h3{
+  color: orange;
+  font-weight: bolder;
+  font-style: font-family: 'Butcherman', cursive;
+}
+.centered p{
+  color: orange;
+  font-weight: bolder;
+  font-family: 'Butcherman', cursive;
+}
+.row{
+  background-image: url("../img/img2.jpg");
+}
