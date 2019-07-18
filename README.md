@@ -12,7 +12,7 @@ his Akan name accodring to the Akan calture.
 ## Setup and Instalation
 open terminal
 use the git clone command to download all the documents relevant to this project o your machine
-https://github.com/Manuel-bit/personal_portfolio.git
+https://github.com/Manuel-bit/Akan.git
 after that run the file index.html in your browser
 ## Tech Used
 eddited using Atom
