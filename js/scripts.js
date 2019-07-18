@@ -26,9 +26,6 @@ function checkData(){
   }
   final();
 }
-function calculateName(){
-   return (((century / 4) - 2 * century - 1) + ((5 * year / 4)) + ((26 * (month + 1) / 10)) + day) % 7;
-}
 function final(){
   var result= parseInt(calculateName());
   if(gender==0){
@@ -38,3 +35,7 @@ function final(){
     alert("your akan name is " + femaleName[result] + ", and you were born in " + week[result]);
   }
 }
+function calculateName(){
+   return (((century / 4) - 2 * century - 1) + ((5 * year / 4)) + ((26 * (month + 1) / 10)) + day) % 7;
+}
+final();

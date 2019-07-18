@@ -14,14 +14,14 @@
   text-align: center;
 }
 .centered h3{
-  color: orange;
+  color: #95CADB;
   font-weight: bolder;
-  font-style: font-family: 'Butcherman', cursive;
+  font-family: 'Indie Flower', cursive;
 }
 .centered p{
-  color: orange;
+  color: #95CADB;
   font-weight: bolder;
-  font-family: 'Butcherman', cursive;
+  font-family: 'Indie Flower', cursive;
 }
 .row{
   background-image: url("../img/img2.jpg");
