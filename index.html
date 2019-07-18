@@ -3,6 +3,7 @@
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+
     <title>AKAN NAMING</title>
   </head>
   <body>
@@ -33,7 +34,7 @@
       </div>
     <div class ="row">
       <div class ="col-lg-6">
-        <h2><u>AKAN HISTORY</u></h2>
+        <h2><u><a name="AKAN HISTORY">Akan history</a></u></h2>
         <P>The Akan people of Ghana and the Ivory Coast frequently name their children after the day of the week they were born, and the order in which they were born. These "day names" have further meanings concerning the soul and character of the person. Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name.</P>
         <ul>
           <h2>Male Names<br></h2>
@@ -59,29 +60,24 @@
       <div class ="col-lg-6">
         <P><br>Lest Get Your Akan Name!!</P>
         <form>
-          <div class ="form group-inline">
-            <input type="number" id="yy" min="1900" max="2018">
-            <label for="yy">Birth Year:</label>
-            <input type="number" id="mm" min="1" max="12">
-            <label for="mm">Birth Month:</label>
-            <input type="number" id="dd" min="1" max="31">
-            <label for="dd">Birth Day:</label>
+          <div class ="form-group mr-2">
+            <input type="number" id="cc" placeholder="Century">
+            <input type="number" id="yy" placeholder="Year">
+            <input type="number" id="mm" min="1" max="12" placeholder="Month">
+            <input type="number" id="dd" min="1" max="31" placeholder="Day">
           </div>
-          <br>
           <br>
           <div class="radio">
             <p>Choose Gender</p>
-            <label><input type="radio" name="gender">Male</label>
-            <label><input type="radio" name="gender">Female</label>
+            <label><input type="radio" id="gender">Male</label>
+            <label><input type="radio" id="gender">Female</label>
           </div>
           <br>
-          <button type="button" class="btn btn-info">SUBMIT</button>
+          <button type="button" class="btn btn-info" onclick="getData()">SUBMIT</button>
         </form>
-
-
       </div>
     </div>
     </div>
-
+    <script src="js/scripts.js"></script>
   </body>
 </html>
